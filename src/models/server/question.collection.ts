@@ -30,7 +30,7 @@ export default async function createQuestionCollection(){
 
   // create Indexes
 
-  /*
+  
   await Promise.all([
     databases.createIndex(
       db,
@@ -49,6 +49,6 @@ export default async function createQuestionCollection(){
       ['asc']
     )
   ])
-    */
+    
 
 }
